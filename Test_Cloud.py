@@ -3,6 +3,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.figure_factory as ff
 import pandas as pd
+import scipy
 
 df = pd.read_csv("Sales_Store_Preprocessed.csv")
 st.title("Super Store")
